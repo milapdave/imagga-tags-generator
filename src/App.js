@@ -28,7 +28,7 @@ function App() {
                 setIsLoad(true);
                 const response = await axios.post(url, formData, {
                     headers: {
-                        Authorization: `Basic ${process.env.REACT_APP_API_KEY}`,
+                        Authorization: `Basic ${process.env.REACT_APP_IMAGGA_API_KEY}`,
                         'Content-Type': 'multipart/form-data'
                     }
                 });
